@@ -95,11 +95,17 @@ button{
     margin: 46px;
 }
 
+p{
+    height: 150px;
+    width:150px;
+}
+
 .imageAndText{
     display:flex;
     flex-direction: row;
-    gap : 8px;
+    gap: 60px;
 }
+
 
 .img {
     border: solid;
@@ -107,4 +113,16 @@ button{
     border-radius: 25px;
     width: 150px;
     height: 150px;
+}
+
+.text{
+    color:grey;
+}
+
+.quote{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
 }
