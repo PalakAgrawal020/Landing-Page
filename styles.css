@@ -72,8 +72,8 @@ ul{
     padding-top: 64px;
 }
 
-button{
-    padding: 6px 12px;
+Button{
+    padding: 6px 25px;
     color: white;
     border: 1px solid #3882f6;
     background-color: #3882f6;
@@ -141,4 +141,28 @@ p{
     padding-left: 250px;
     font-size: 20px;
     font-weight: bolder;
+}
+
+.signup{
+    margin: 100px 500px 100px 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.signuptext{
+    padding: 50px;
+    color: white;
+}
+
+.callToAction{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn Button{
+    border: 1px solid white;
 }
