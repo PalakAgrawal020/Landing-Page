@@ -166,3 +166,13 @@ p{
 .btn Button{
     border: 1px solid white;
 }
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px;
+}
